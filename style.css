@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#tituloMenuSuperior{
+    color: #FFFFFF;
+    font-size: 60px;
+    line-height: 72px;
+    margin-left: 62px;
+    padding-top: 206px;
+}
+
+#textoMenuSuperior{
+    color: #FFFFFF;
+    margin-left: 62px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#menuSuperior{
+    background-color: #303030;
+    height: 475px;
+}
+
+#menuInformacional{
+    background-color: #F9F9F9;
+    padding: 96px 0px 66px 171px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#secaoConteudo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#textoConteudo{
+    margin: 264px 64px 314px 77px;
+}
+
+#imagemConteudo{
+    margin: 82px 54px 92px 0px;
+}
+
+#tituloConteudo{
+    font-size: 40px;
+}
+
+#paragrafoConteudo{
+    font-size: 24px;
+}
+
+#secaoFormulario{
+    background-color: #303030;
+    height: 638px;
+    text-align: center;
+}
+
+#tituloFormulario{
+    color: #FFFFFF;
+    font-size: 32px;
+    padding-top: 87px;
+}
+input{
+    Width: 508px;
+    Height: 72px;
+    margin-top: 48px;
+    padding-left: 30px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: "Raleway";
+    font-weight: bold;
+}
+
+button{
+    width: 286px;
+    height: 74px;
+    margin-top: 88px;
+    background-color: #C07212;
+    font-family: "Raleway";
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: #00000048;
+}
+
+button:hover{
+    background-color: #e68e24c9;
+    color: black;
+    transform: translateY(-7px);
+    transition-duration: 300ms;
+    box-shadow: 0px 10px 15px 0px #ff5e00e7;
+}
